@@ -1,0 +1,25 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /messages/{messageId} {
+      // Allow anyone to read messages
+      allow read: if true;
+      
+      // Allow anyone to create messages, but with validation
+      allow create: if 
+        // Message must only contain allowed fields
+        request.resource.data.keys().hasOnly(['content', 'createdAt']) &&
+        
+        // Content must be a string between 1 and 500 characters
+        request.resource.data.content is string &&
+        request.resource.data.content.size() > 0 &&
+        request.resource.data.content.size() <= 500 &&
+        
+        // CreatedAt must be a server timestamp
+        request.resource.data.createdAt == request.time;
+        
+      // No one can update or delete messages
+      allow update, delete: if false;
+    }
+  }
+}
