@@ -1,163 +1,98 @@
-# 🌊 DriftNotes — Virtual Beach Message Experience
+<h1 align="center">Hi 👋, I'm Rajdeep Singh</h1>
+<h3 align="center">Full-Stack Web & Blockchain Developer</h3>
 
-> *Cast your thoughts into the digital tide... anonymously.*
-
-DriftNotes is a serene, immersive 3D beach environment where users anonymously share messages inside virtual glass bottles that float gently across a shimmering ocean. Built with modern web technologies, it’s not just an app — it’s an *experience*.
-
-Created with ❤️ by [Rajdeep Singh](https://github.com/RajdeepKushwaha5) (2025).
-
----
-
-## 🌟 Features
-
-- 🏖️ **Immersive 3D Beach** — Powered by Three.js with realistic water shaders and ambient lighting.
-- 🍾 **Floating Message Bottles** — Click any bottle to read anonymous messages from around the world.
-- 📲 **Real-Time Updates** — New messages appear instantly for all users.
-- 📱 **Fully Responsive** — Works beautifully on desktop, tablet, and mobile.
-- 💎 **Glass Bottle Effects** — Dynamic reflections, refractions, and lighting for lifelike visuals.
-- 🎨 **Smooth Animations** — Powered by Framer Motion for delightful UI transitions.
-- 🔐 **Anonymous & Safe** — No user accounts. Just pure, ephemeral expression.
+<p align="center">
+  <a href="https://rajdeep-singh.vercel.app/">Portfolio</a> •
+  <a href="https://medium.com/@rajdeep01">Blog</a> •
+  <a href="https://drive.google.com/file/d/1dWRhT2GSx4StZk2kqGU2UpJLNZCVnuoA/view">Resume</a>
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+### 🌱 Currently Learning
+- **Blockchain Technology** (Solidity, Ethereum, Solana)
 
-| Category          | Technologies Used                          |
-|-------------------|--------------------------------------------|
-| Frontend          | React + TypeScript + Vite                  |
-| 3D Engine         | Three.js + `@react-three/fiber` + `@react-three/drei` |
-| State Management  | Zustand                                    |
-| Styling           | Tailwind CSS                               |
-| Animations        | Framer Motion                              |
-| Backend / DB      | Firebase Firestore                         |
-| Deployment        | Firebase Hosting + GitHub Actions          |
+### 💬 Get in Touch
+- 🔗 [LinkedIn](https://www.linkedin.com/in/rajdeep-singh-b658a833a/)
+- 🐦 [X (Twitter)](https://x.com/rajdeeptwts)
+- ✉️ rajdeepsingh10789@gmail.com
 
 ---
 
-## 🚀 Getting Started (Local Setup)
+### 📊 GitHub Stats
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=RajdeepKushwaha5&show_icons=true&theme=radical&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajdeepKushwaha5&layout=compact&theme=radical&hide_border=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=RajdeepKushwaha5&theme=radical&hide_border=true" />
+</div>
 
-### Prerequisites
-- **Node.js** (v18+)
-- **npm** (v9+)
-- **A Firebase Project** (see [Firebase Setup](#-firebase-setup))
+<br>
 
----
-
-### Steps
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/RajdeepKushwaha5/DriftNotes.git
-   cd DriftNotes
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure Firebase**
-   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
-   - Enable Firestore Database (choose test mode for development)
-   - Copy your Firebase config (`apiKey`, `authDomain`, `projectId`, etc.)
-   - Paste it into `src/services/firebaseService.ts`
-
-4. **Start the dev server**
-   ```bash
-   npm run dev
-   ```
-   Open your browser at → [http://localhost:5173](http://localhost:5173)
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RajdeepKushwaha5&bg_color=0d1117&color=00e676&line=00e676&point=ffffff&area=true&hide_border=true" />
+</div>
 
 ---
 
-## 🔧 Firebase Setup
-
-1. Go to Firebase Console → Create a new project
-
-2. Enable Firestore:
-   ```
-   Build → Firestore Database → Create Database → Start in Test Mode
-   ```
-
-3. Apply Security Rules (optional for production):
-   - Use rules from `firestore.rules` in your Firestore Rules editor
-
-4. Get Config:
-   ```
-   Project Settings → Your Apps → Web App → Firebase SDK snippet → Config
-   ```
-   Paste config into `src/services/firebaseService.ts` as shown:
-   ```ts
-   const firebaseConfig = {
-     apiKey: "YOUR_API_KEY",
-     authDomain: "YOUR_AUTH_DOMAIN",
-     projectId: "YOUR_PROJECT_ID",
-     // ... etc
-   };
-   ```
+### 🏆 GitHub Trophies
+![Trophies](https://trophy.github-readme-stats.vercel.app/?username=RajdeepKushwaha5&theme=radical&no-frame=true&no-bg=true&margin-w=4)
 
 ---
 
-## 🚀 Deployment (via GitHub Actions)
+### 💻 Tech Stack
 
-This project is pre-configured for automatic deployment to Firebase Hosting when you push to the main branch.
+#### 🔹 Languages
+![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54&style=flat) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat) 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat) 
+![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=flat) 
+![Solidity](https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=white&style=flat)
 
-### Setup Steps
+#### 🔹 Frontend
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=flat) 
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white&style=flat) 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat) 
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat)
 
-1. In your Firebase project, initialize hosting:
-   ```bash
-   firebase init hosting
-   ```
-   (Follow prompts — you only need to do this once locally to generate `firebase.json`)
+#### 🔹 Backend & DevOps
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=flat) 
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=flat) 
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white&style=flat) 
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat)
 
-2. In your GitHub repo → Settings → Secrets and variables → Actions, add:
-   - `FIREBASE_SERVICE_ACCOUNT` → Your Firebase service account JSON (minified, single line)
-   - `FIREBASE_PROJECT_ID` → Your Firebase project ID
+#### 🔹 Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=flat) 
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=flat) 
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat)
 
-   **How to get service account?**
-   - Firebase Console → Project Settings → Service Accounts
-   - Generate new private key → Download JSON
-   - Minify it (remove whitespace) → Paste as GitHub secret
-
-3. Ensure `.github/workflows/deploy.yml` has the correct `projectId`
-
-4. Push to `main` → Deployment will trigger automatically! 🚀
-
-
----
-
-### ✅ **Contributing, License & Acknowledgments**
-
-```markdown
----
-
-## 🤝 Contributing
-
-While DriftNotes is a personal passion project, **your ideas, feedback, and contributions are warmly welcomed!**
-
-✅ How to contribute:
-- Open an [Issue](https://github.com/RajdeepKushwaha5/DriftNotes/issues) for bugs or feature requests.
-- Fork the repo → Make changes → Submit a [Pull Request](https://github.com/RajdeepKushwaha5/DriftNotes/pulls).
-
-Let’s make the digital ocean a little more magical, together 🐚
+#### 🔹 Cloud & Blockchain
+![AWS](https://img.shields.io/badge/AWS-FF9900?logo=amazon-aws&logoColor=white&style=flat) 
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=flat) 
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?logo=ethereum&logoColor=white&style=flat) 
+![Solana](https://img.shields.io/badge/Solana-00FFA3?logo=solana&logoColor=black&style=flat)
 
 ---
 
-## 📜 License
-
-MIT License — Feel free to use, modify, and learn from this project.
-
----
-
-## 🙏 Acknowledgments
-
-Huge thanks to:
-- The **Three.js** community for powerful, open 3D tools.
-- **React Three Fiber** team for making 3D in React a joy.
-- **Firebase** for seamless real-time backend.
-- **Tailwind CSS** & **Framer Motion** for beautiful, performant UI.
+### 📈 Profile Views & Followers
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=RajdeepKushwaha5&label=Profile%20Views&color=0e76a8&style=flat" />
+  <img src="https://img.shields.io/github/followers/RajdeepKushwaha5?label=Followers&color=blue&style=flat" />
+</div>
 
 ---
 
-> 🌅 *“The sea, once it casts its spell, holds one in its net of wonder forever.”*  
-> — Jacques Yves Cousteau (adapted for digital drifters ✨)
+### 🔗 Connect With Me
+<p align="center">
+  <a href="https://www.linkedin.com/in/rajdeep-singh-b658a833a/" target="_blank">
+    <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/main/svg/Social/linked-in-alt.svg" height="30" />
+  </a>
+  <a href="https://x.com/rajdeeptwts" target="_blank">
+    <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/main/svg/Social/twitter.svg" height="30" />
+  </a>
+  <a href="https://medium.com/@rajdeep01" target="_blank">
+    <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/main/svg/Social/medium.svg" height="30" />
+  </a>
+  <a href="mailto:rajdeepsingh10789@gmail.com">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" height="30" />
+  </a>
+</p>
